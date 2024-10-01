@@ -1,0 +1,14 @@
+# created by virtualenv automatically
+*.xlsx
+log.txt
+__pycache__/
+.idea/
+*.yaml
+venv/
+.venv/
+.vscode/
+Python312/
+output/
+transfer/
+regy_merge/
+regy_separate/
