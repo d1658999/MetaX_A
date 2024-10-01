@@ -18,7 +18,8 @@ class AtCommand:
         if mode == 'r':
             self.device_send_at_command(f'"AT+EGCMD=1, \"read_mipi_cw\", \"{die_info}\", {port}, \"{usid}\", \"{addr}\""')
         if mode == 'w':
-            self.device_send_at_command(f'"AT+EGCMD=1, \"write_mipi_cw\", \"{die_info}\", {port}, \"{usid}\", \"{addr}\", \"{data}\""')			
+            self.device_send_at_command(f'"AT+EGCMD=1, \"write_mipi_cw\", \"{die_info}\", {port}, \"{usid}\", \"{add}\", \"{data}\""')			
+    
     
     def bsi_cmd(mode, cw, data=None):
         """
